@@ -4,6 +4,7 @@ import Counter1 from "./customHook/counter1";
 import Search from "./search/search";
 import InfiniteScroller from "./infiniteScroll/infiniteScroller";
 import InfiniteScrollerIntApi from "./infiniteScroll/infiniteIntApi";
+import PaginationExample from "./pagination/Pagination";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Counter1 /> */}
       {/* <Item /> */}
       {/* <InfiniteScroller /> */}
-      <InfiniteScrollerIntApi />
+      {/* <InfiniteScrollerIntApi /> */}
+      <PaginationExample />
     </div>
   );
 }
