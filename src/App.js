@@ -5,6 +5,7 @@ import Search from "./search/search";
 import InfiniteScroller from "./infiniteScroll/infiniteScroller";
 import InfiniteScrollerIntApi from "./infiniteScroll/infiniteIntApi";
 import PaginationExample from "./pagination/Pagination";
+import DebounceSearch from "./search/debounceSearch";
 
 function App() {
   return (
@@ -13,12 +14,13 @@ function App() {
         <h1>new reacr app</h1>
       </header> */}
       <h1>new react app</h1>
-      {/* <Search />
-      <Counter1 /> */}
+      {/* <Search /> */}
+      <DebounceSearch />
+      {/* <Counter1 />  */}
       {/* <Item /> */}
       {/* <InfiniteScroller /> */}
       {/* <InfiniteScrollerIntApi /> */}
-      <PaginationExample />
+      {/* <PaginationExample /> */}
     </div>
   );
 }
