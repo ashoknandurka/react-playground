@@ -18,11 +18,11 @@ function App() {
       {/* <Search /> */}
       {/* <DebounceSearch /> */}
       {/* <Counter1 />  */}
-      {/* <Item /> */}
+      <Item />
       {/* <InfiniteScroller /> */}
       {/* <InfiniteScrollerIntApi /> */}
       {/* <PaginationExample /> */}
-      <Counter />
+      {/* <Counter /> */}
     </div>
   );
 }

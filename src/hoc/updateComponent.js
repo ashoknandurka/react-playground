@@ -1,15 +1,9 @@
 
-
-function updateComponent(childComponent){
-    function newComponent(){
-        return (
-            <chilComponent 
-            name = 'ashok'
-            age = {25}
-            />
-        )
-    }
-    return newComponent()
+function updateComponent(ChildComponent) {
+  function newComponent() {
+    return <ChildComponent name="ashok" age={25} />;
+  }
+  return newComponent;
 }
 
 export default updateComponent;
