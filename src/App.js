@@ -7,6 +7,7 @@ import InfiniteScrollerIntApi from "./infiniteScroll/infiniteIntApi";
 import PaginationExample from "./pagination/Pagination";
 import DebounceSearch from "./search/debounceSearch";
 import Counter from "./counter/counter";
+import Todo from "./todo/todo";
 
 function App() {
   return (
@@ -18,11 +19,12 @@ function App() {
       {/* <Search /> */}
       {/* <DebounceSearch /> */}
       {/* <Counter1 />  */}
-      <Item />
+      {/* <Item /> */}
       {/* <InfiniteScroller /> */}
       {/* <InfiniteScrollerIntApi /> */}
       {/* <PaginationExample /> */}
       {/* <Counter /> */}
+      <Todo />
     </div>
   );
 }
