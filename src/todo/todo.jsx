@@ -51,11 +51,11 @@ function Todo() {
     <div>
       <h1>Todo App</h1>
       <div>
-        <input type="text" onChange={handleChange} value={input} />
+        <input type="text" onChange={handleChange} value={input} data-testid='todo-input'  />
         {toggle ? (
-          <button onClick={handleAdd}>update</button>
+          <button onClick={handleAdd} data-testid='todo-update-btn'>update</button>
         ) : (
-          <button onClick={handleAdd}>Add</button>
+          <button onClick={handleAdd} data-testid='todo-add-btn'>Add</button>
         )}
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
@@ -65,8 +65,8 @@ function Todo() {
               <li style={{ display: "flex" }} key={Item.id}>
                 <p style={{ marginRight: "1rem" }}>{Item.name}</p>
                 <div style={{ display: "flex", alignItems: "center" }}>
-                  <button onClick={() => deleteItem(Item.id)}>Delete</button>
-                  <button onClick={() => updateItem(Item.id)}>Update</button>
+                  <button onClick={() => deleteItem(Item.id)} data-testid='todo-delete-btn'>Delete</button>
+                  <button onClick={() => updateItem(Item.id)} data-testid='todo-edit-btn'>Edit</button>
                 </div>
               </li>
             );
