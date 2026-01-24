@@ -8,6 +8,8 @@ import PaginationExample from "./pagination/Pagination";
 import DebounceSearch from "./search/debounceSearch";
 import Counter from "./counter/counter";
 import Todo from "./todo/todo";
+import { SearchDebounce } from "./debounce/debounce";
+import { Throttle } from "./throttle/Throttle";
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
       {/* <InfiniteScrollerIntApi /> */}
       {/* <PaginationExample /> */}
       {/* <Counter /> */}
-      <Todo />
+      {/* <Todo /> */}
+      <SearchDebounce />
+      <Throttle />
     </div>
   );
 }
