@@ -18,17 +18,17 @@ function App() {
         <h1>new reacr app</h1>
       </header> */}
       <h1>new react app</h1>
-      {/* <Search /> */}
+      <Search />
       {/* <DebounceSearch /> */}
       {/* <Counter1 />  */}
       {/* <Item /> */}
       {/* <InfiniteScroller /> */}
       {/* <InfiniteScrollerIntApi /> */}
-      {/* <PaginationExample /> */}
+      <PaginationExample />
       {/* <Counter /> */}
       {/* <Todo /> */}
-      <SearchDebounce />
-      <Throttle />
+      {/* <SearchDebounce /> */}
+      {/* <Throttle /> */}
     </div>
   );
 }

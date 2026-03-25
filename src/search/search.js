@@ -11,6 +11,7 @@ function Search() {
           "https://jsonplaceholder.typicode.com/users"
         );
         const data = await response.json();
+        console.log("data::", data);
         setUsers(data);
         setFilteredUsers(data);
       };
